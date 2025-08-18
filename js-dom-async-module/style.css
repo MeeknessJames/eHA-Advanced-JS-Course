@@ -1,0 +1,61 @@
+:root {
+  --default-color: #777;  
+  --completed-color: #2e7d32;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  margin: 2rem;
+  line-height: 1.4;
+}
+
+h1 { margin-bottom: 1rem; }
+
+#todo {
+  list-style: none;
+  padding: 0;
+  max-width: 520px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+
+  color: var(--default-color);
+  background: #fff;
+
+  cursor: pointer;
+  user-select: none;
+
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.todo-item:hover {
+  background: #fafafa;
+}
+
+.todo-item .tick {
+  opacity: 0; 
+  transition: opacity 0.15s ease;
+  font-size: 1.1rem;
+}
+
+.todo-item.completed {
+  color: var(--completed-color); 
+  border-color: var(--completed-color);
+  background: rgba(46, 125, 50, 0.05);
+}
+
+.todo-item.completed .tick {
+  opacity: 1;  
+}
