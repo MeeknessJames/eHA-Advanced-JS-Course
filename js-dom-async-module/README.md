@@ -2,7 +2,6 @@
 
 This repository contains exercises for learning JavaScript, the DOM, and async programming.
 
----
 
 ## Task: Interactive To Do List
 
