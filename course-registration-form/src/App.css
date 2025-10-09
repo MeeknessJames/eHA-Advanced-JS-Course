@@ -1,0 +1,78 @@
+body {
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-container {
+  background-color: #ffffff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: left;
+}
+
+.app-container h2 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+button {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #16a34a;
+}
+
+.error {
+  color: #dc2626;
+  font-size: 13px;
+}
+
+.success {
+  color: #16a34a;
+  font-weight: 600;
+  text-align: center;
+}
