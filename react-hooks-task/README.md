@@ -37,6 +37,7 @@ This project covers key **React Hooks** concepts:
 
 ## 💻 Project Structure
 
+```
 src/
 ├── components/
 │ └── TaskForm.jsx # Handles new task input
@@ -47,34 +48,44 @@ src/
 ├── App.jsx # Main app layout and integration
 ├── index.css # App styling (light/dark theme)
 └── index.js # Entry point
-
+```
 
 ## ⚙️ Setup Instructions
 
 Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the Repository
+```
 ```bash
 git clone https://github.com/MeeknessJames/react-hooks-task.git
+```
 
 2️⃣ Navigate into the Project Folder
+```
 cd react-hooks-task
+```
 
 3️⃣ Install Dependencies
+```
 npm install
+```
 
 4️⃣ Start the Development Server
+```
 npm start
-
+```
 Your app will run at 👉 http://localhost:3000
 
 🌗 Theme Preview
 Light Mode	Dark Mode
 ✅ Clean white interface	🌙 Sleek dark background
-Easy on the eyes	Great for night mode
+Easy on the eyes, Great for night mode
 
 👩🏽‍💻 Author
 
 Meekness Iruoma James
 📍 Port Harcourt, Rivers State, Nigeria
 📧 Meeknessjames1@gmail.com
+
+🏁 License
+This project is licensed under the MIT License – feel free to use and modify it for your own learning or portfolio.
